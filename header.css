@@ -1,0 +1,195 @@
+.header{
+    display: flex;  
+    height: 75px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+
+    border-bottom-style: solid;
+    border-bottom-color: rgb(49, 49, 49) ;
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    align-items: center;
+
+}
+
+.hamburger-menu{
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.youtube-icon{
+    height: 22px;
+}
+
+
+/* ////// */
+
+
+
+.middle-section{
+    flex: 1;
+    display: flex;
+    margin-left: 170px;
+    max-width: 670px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.search-bar-grid{  
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
+    /* box-shadow: 3px 6px 10px rgba(205, 205, 205, 0.15); */
+}
+
+.search-bar{
+    font-size: 16px;
+    height: 40px;
+    width: 500px;
+    border-style:solid;
+    border-radius: 30px;
+    border-color: rgb(99, 99, 99);
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: black;
+    box-shadow: inset 3px 6px 10px rgba(205, 205, 205, 0.15);
+    padding-left: 25px;
+}
+
+.search-button{
+    width: 10px;
+    height: 43px;
+    margin-bottom: 12px;
+    background-color: rgb(46, 46, 46);
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgb(46, 46, 46);
+    border-radius: 0px 25px 25px 0px;
+    margin-left: -74px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.search-icon{
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -12px;
+}
+.mic-icon{
+    width: 10px;
+    height: 46px;
+    margin-bottom: 12px;
+    background-color: rgb(46, 46, 46);
+    border-width: 18px;
+    border-style: solid;
+    border-color: rgb(46, 46, 46);
+    border-radius: 100px;
+    margin-left: 10px;
+    position: relative;
+}
+.mic{
+    height: 20px;
+    margin-top: -12px;
+    margin-left: -10px;
+    /* background-color: rgb(41, 41, 41); */
+}
+
+/* .searchbar:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border-style: none;
+} */
+
+.search-button .tool-tip{
+    position: absolute;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    bottom: -55px;
+    right: -15px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+
+.search-button:hover .tool-tip{
+    opacity: 1;
+}
+
+.mic-icon .tool-tip{
+    position: absolute;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    bottom: -60px;
+    right: 0px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.mic-icon:hover .tool-tip{
+    opacity: 1;
+}
+
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    position: relative;
+    flex-shrink: 0;
+}
+.notification-icon{
+    height: 25px;
+    margin-bottom: 5px;
+}
+.create-icon{
+    height: 25px;
+    margin-bottom: 5px;}
+
+.create-tool-tip{
+    
+}
+.profile-pic{
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.notification-count{
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    position:absolute;
+    bottom: 38px;
+    left: 88px;
+}

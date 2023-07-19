@@ -1,0 +1,77 @@
+.video-preview{
+                color: white;
+            }
+            .thumbnail{
+            width: 90%;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.15);
+            }
+            .thumbnail:hover{
+                border-radius: 0px;
+                box-shadow: 5px 5px 10px rgba(100, 100, 100, 0.15);
+                transition: 0.3s;
+
+            }
+            .video-title{
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 8px;
+                margin-left: 3px;
+                line-height: 23px;
+            }
+            .channel-name{
+                font-size: 16px;
+                font-weight: 300;
+                color: rgb(178, 178, 178);
+                margin-bottom: 8px;
+                margin-left: 5px;
+            }
+            .views{
+                font-size: 12px;
+                font-weight: 300;
+                color: rgb(135, 135, 135);
+                margin-left: 5px;
+            }
+            .video-info{
+                font-size: 16px;
+                /* width: 350px; */
+            }
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+            .channel-picture{
+                /* display: inline-block; */
+                vertical-align: top;
+            }
+            .profile-picture{
+                width: 40px;
+                border-radius: 50px;
+                /* display: inline-block; */
+            }
+            .thumbnail-row{
+                margin-bottom: 13px;
+                position: relative;
+            }
+            .video-time{
+                font-family: Roboto, Arial;
+                font-weight: bold;
+                font-size: 13px;
+                right: 48px;
+                bottom: 8px;
+                position: absolute;
+                background-color: black;
+                color: white;
+                padding-left: 2px;
+                padding-right: 2px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                border-radius: 5px;
+            }
+            .video-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 18px;
+                row-gap: 40px;
+                cursor: pointer;
+}
